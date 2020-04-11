@@ -1,0 +1,7 @@
+Flask
+wtforms
+passlib
+pyjwt
+datetime
+flask_pymongo
+bcrypt
