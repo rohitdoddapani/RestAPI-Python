@@ -10,6 +10,7 @@ import bcrypt
 
 app = Flask(__name__)
 
+#Add your Mongo db name and URI
 app.config['MONGO_DBNAME'] = 'FlaskApp'
 app.config['MONGO_URI'] = 'mongodb+srv://rohit:rohit123@flaskapp-uhtlu.mongodb.net/test?retryWrites=true&w=majority'
 app.config['SECRET_KEY'] = 'thisisthesecretkey'
